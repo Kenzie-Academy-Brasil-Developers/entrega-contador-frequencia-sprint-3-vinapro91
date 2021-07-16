@@ -1,0 +1,61 @@
+.main {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    align-items: center;
+}
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+#countButton {
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+#textInput {
+    width: 200px;
+    font-size: 0.8rem;
+
+}
+.box-resultado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid blue;
+}
+.result {
+    width: 200px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+@media only screen and (min-width : 475px) {
+    .main {
+        width: 100%;
+        flex-direction: row;
+        margin:0 auto;
+        align-items: center;
+        
+    }
+    #textInput {
+        margin-right: 10%;
+        margin-left:10%;
+        width: auto;
+    }
+    #countButton {
+        margin-right: 10%;
+    }
+    .result {
+        width: 100%;
+        
+    }
+
+}
